@@ -5,14 +5,7 @@
     box-sizing: border-box;
 }
 
-/* ----------------------- */
-
-/* 
-
-HEADER SETTINGS
-
-*/
-
+/* HEADER SETTINGS*/
 
 header{
 
@@ -120,16 +113,12 @@ header main{
 #center button{
     margin-top: 10px;
 }
-/* --------------------------------- */
 
-/*
-
-MAIN SETTINGS
-
-*/
+/*MAIN SETTINGS*/
 
 
 /* IMG-PARAGRAF SETTINGS */
+
 /* IMMAGE */
 #frog{
     /* Frog immage */
@@ -148,10 +137,7 @@ MAIN SETTINGS
 
 .white-sec{
     min-height: 350px;
-
     /* DEBUG */
-    
-
     /* flex */
     display: flex;
     align-items: center;
@@ -167,15 +153,11 @@ MAIN SETTINGS
 
 
 
-/* -------------------------------------------- */
+/* GRAY SECTION */
 #gray-sec{
     min-height: 350px;
     background-color: #d3d3d3;
-
     /* DEBUG */
-    
-
-
     /* flex */
     display: flex;
     align-items: center;
@@ -186,8 +168,6 @@ MAIN SETTINGS
 
 /* LAST SECTION SETTINGS */
 #last-sec{
-    
-
     /* DEBUG */
     background-color: #d3d3d3;
     height: 1000px;
@@ -200,41 +180,32 @@ MAIN SETTINGS
 
 #bg-immage{
     width: 100%;
-    height: 100%;
+    height: 500px;
     background-image: url(../img/item4-big.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
 
 #green-box{
     height: 80%;
     width: 70%;
-
     text-align: center;
 }
 
 /* color sides */
 .blue{
-    
-    
     background-size: contain;
     background-repeat: no-repeat;
     /* DEBUG */
-    
     height: 100%;
     width: 60%;
-    
 }
-
 
 .rose{
 
-    /* DEBUG */
-   
+    /* DEBUG */   
     height: 100%;
     max-width: 20%;
-   
 }
 
 /* -----END   colorside---- */
@@ -254,22 +225,15 @@ MAIN SETTINGS
 
 
 
-/* ---------------------------- */
 
-/* 
-
-FOOTER SETTINGS
-
-*/
+/*FOOTER SETTINGS*/
 
 /* First Block */
 #container{
     height: 400px;
-
     /* DEBUG*/
-    background-color: black;
+    background-color: #233142;
     border-bottom: 1px solid #d3d3d3;
-
     /* flex */
     display: flex;
     align-items: center;
@@ -280,7 +244,7 @@ FOOTER SETTINGS
     /* DEBUG */
     height: 250px;
     width: 70%;
-    background-color: tomato;
+    /* background-color: tomato; */
 
     /* flex */
     display: flex;
@@ -294,29 +258,18 @@ FOOTER SETTINGS
 }
 
 #red-x{
-    width: 40%;
-
-
-    /* DEBUG */
-   
+    width: 40%
 }
 
 #blue-x{
     width: 60%;
-
-
-    /* DEBUG */
-    
-    background-color: #1e90ff;
-
     /* flex */
     display: flex;
     align-items: stretch;
 }
 
 .x{
-    /* DEBUG */
-    
+    /* DEBUG */   
     width: 25%;
 }
 
@@ -326,7 +279,7 @@ FOOTER SETTINGS
 #bs-container{
     /* DEBUG */
     height: 100px;
-    background-color: black;
+    background-color: #233142;
 
     /* flex */
     display: flex;
@@ -338,9 +291,6 @@ FOOTER SETTINGS
     /* DEBUG */
     width: 70%;
     height: 30px;
-    background-color: lightgreen;
-    
-
     /*flex */
     display: flex;
     align-items: center;
@@ -350,9 +300,7 @@ FOOTER SETTINGS
 #bs-logo, #bottone{
     /* DEBUG */
     height: 25px;
-    width: 50px;
-    background-color: tomato;
-    
+    /* width: 50px; */   
 }
 
 /* BUTTON SETTINGS */
@@ -372,3 +320,29 @@ FOOTER SETTINGS
 .btn.gray{
     background-color: #233142;
 }
+
+.btn.blue{
+    background-color: rgba(0, 132, 255, 0.414);
+    width: auto;
+}
+
+
+/* LIST STYLE SETTINGS */
+.x ul li{
+    list-style: none;
+}
+
+ul li:first-child{
+    color: lightblue;
+}
+
+
+
+/* EXTRA */
+#lonely-btn button{
+    padding: 10 20px;
+    margin-top: 30px;
+    font-size: 12px;
+    
+}
+
