@@ -3,17 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 /* HEADER SETTINGS*/
 
 header{
-
+    color: #d3d3d3;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     /* DEBUG */
-    min-height: 350px;
-    background-color: darkblue;
+   
 }
 
 header>nav{
@@ -205,7 +206,7 @@ header main{
 
     /* DEBUG */   
     height: 100%;
-    max-width: 20%;
+    max-width: 40%;
 }
 
 /* -----END   colorside---- */
@@ -328,6 +329,11 @@ header main{
 
 
 /* LIST STYLE SETTINGS */
+
+.x{
+    color: white;
+}
+
 .x ul li{
     list-style: none;
 }
@@ -346,3 +352,7 @@ ul li:first-child{
     
 }
 
+
+#red-x h2{
+    color: lightblue;
+}
