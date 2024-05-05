@@ -2,13 +2,10 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
 
-
 /* HEADER SETTINGS*/
-
 header{
     color: #d3d3d3;
     background-image: url("../img/jumbo.png");
@@ -31,39 +28,35 @@ header>nav{
 
 /* logo */
 #logo{
-    
+    padding-left: 10px;
+    height: 100%;
+    width: 25%;
     /* flex */
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    
-    
-    /* DEBUG */
-    padding-left: 10px;
-    height: 100%;
-    width: 25%;
-
 }
 
 /* login */
 #login{
-
-    /* debug */
     height: 100%;
     width: 25%;
     padding-right: 10px;
-    
-
     /* flex */
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    
 }
 
 /* BUTTON ANIMATIONS */
+.btn.blue:hover{
+    background-color: #5865f2b2;
+    transition: 0.3s ease;
+}
+
+
 #login .btn:hover{
-    color: rgb(155, 130, 242);
+    color: #5865f2;
     transition-delay: 0.5s;
     animation-name: marco;
     animation-duration: 1s;
@@ -82,7 +75,7 @@ header>nav{
 }
 
 #center .btn.wht:hover{
-    color: rgb(155, 130, 242);
+    color: #5865f2;
     transition-delay: 0.5s;
     animation-name: marco;
     animation-duration: 1s;
@@ -99,13 +92,11 @@ header>nav{
       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 }
+
 /* all bar of menu */
 #menu-bar{
-    
-    /* DEBUG */
     width: 70%;
     min-height: 30px;
-
     /* flex */
     display: flex;
     align-items: center;
@@ -128,12 +119,14 @@ header>nav{
     text-decoration: underline;
 }
 
+.x ul li:hover{
+    text-decoration: underline;
+}
 
 /* main of header */
 
 header main{
     min-height: 300px;
-
     /* flex */
     display: flex;
     align-items: center;
@@ -141,10 +134,7 @@ header main{
 }
 
 #center{
-
     text-align: center;
-
-    /* debug */
     width: 30%;
     min-height: 200px;
 } 
@@ -181,7 +171,6 @@ header main{
 
 .white-sec{
     min-height: 350px;
-    /* DEBUG */
     /* flex */
     display: flex;
     align-items: center;
@@ -201,7 +190,6 @@ header main{
 #gray-sec{
     min-height: 350px;
     background-color: #d3d3d3;
-    /* DEBUG */
     /* flex */
     display: flex;
     align-items: center;
@@ -212,7 +200,6 @@ header main{
 
 /* LAST SECTION SETTINGS */
 #last-sec{
-    /* DEBUG */
     background-color: #d3d3d3;
     height: 1000px;
     /* flex */
@@ -228,6 +215,8 @@ header main{
     background-image: url(../img/item4-big.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+    background-position: bottom ;
 }
 
 #green-box{
@@ -240,14 +229,11 @@ header main{
 .blue{
     background-size: contain;
     background-repeat: no-repeat;
-    /* DEBUG */
     height: 100%;
     width: 60%;
 }
 
-.rose{
-
-    /* DEBUG */   
+.rose{   
     height: 100%;
     max-width: 40%;
 }
@@ -256,10 +242,8 @@ header main{
 
 /* BOX SETTINGS */
 .box{
-    /* DEBUG */
     height: 250px;
     width: 70%;
-
     /* flex */
     display: flex;
     align-items: center;
@@ -267,17 +251,15 @@ header main{
 }
 
 
-
-
-
 /*FOOTER SETTINGS*/
-
+footer{
+    background-color: #23272a;
+}
 /* First Block */
 #container{
     height: 400px;
-    /* DEBUG*/
-    background-color: rgba(42, 42, 42, 0.944);
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #5865f2;
+    margin: 0 100px;
     /* flex */
     display: flex;
     align-items: center;
@@ -285,17 +267,16 @@ header main{
 }
 
 #column{
-    /* DEBUG */
     height: 250px;
-    width: 70%;
-    /* background-color: tomato; */
-
+    width: 100%;
     /* flex */
     display: flex;
     align-items: stretch;
 }
 
 #star{
+    margin-top: 100px;
+    /* Background settings */
     background-image: url(../img/stars.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -312,19 +293,15 @@ header main{
     align-items: stretch;
 }
 
+/* CLASS OF MENU BAR FOOTER */
 .x{
-    /* DEBUG */   
     width: 25%;
 }
 
 
 /* Nav bar end. */
-
 #bs-container{
-    /* DEBUG */
     height: 100px;
-    background-color: rgba(42, 42, 42, 0.944);
-
     /* flex */
     display: flex;
     align-items: end;
@@ -342,9 +319,7 @@ header main{
 }
 
 #bs-logo, #bottone{
-    /* DEBUG */
-    height: 25px;
-    /* width: 50px; */   
+    height: 25px;   
 }
 
 /* BUTTON SETTINGS */
@@ -366,13 +341,12 @@ header main{
 }
 
 .btn.blue{
-    background-color: rgba(0, 132, 255, 0.2);
+    background-color: #5865f2;
     width: auto;
 }
 
 
 /* LIST STYLE SETTINGS */
-
 .x{
     color: white;
 }
@@ -382,8 +356,9 @@ header main{
     list-style: none;
 }
 
-ul li:first-child{
-    color: lightblue;
+
+ul span:first-child{
+    color: #5865f2;
 }
 
 
@@ -396,7 +371,16 @@ ul li:first-child{
     
 }
 
+#red-x #logo-foot i{
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#red-x span{
+    color: white;
+}
 
 #red-x h2{
-    color: lightblue;
+    color: #5865f2;
 }
