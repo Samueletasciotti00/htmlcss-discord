@@ -61,7 +61,44 @@ header>nav{
     
 }
 
+/* BUTTON ANIMATIONS */
+#login .btn:hover{
+    color: rgb(155, 130, 242);
+    transition-delay: 0.5s;
+    animation-name: marco;
+    animation-duration: 1s;
+}
 
+@keyframes marco {
+    0% {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+#center .btn.wht:hover{
+    color: rgb(155, 130, 242);
+    transition-delay: 0.5s;
+    animation-name: marco;
+    animation-duration: 1s;
+}
+
+@keyframes marco {
+    0% {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+}
 /* all bar of menu */
 #menu-bar{
     
@@ -85,6 +122,12 @@ header>nav{
     align-items: center;
     justify-content: space-between;
 }
+
+/* MENU UNDERLINE */
+#menu-list li:hover{
+    text-decoration: underline;
+}
+
 
 /* main of header */
 
@@ -233,7 +276,7 @@ header main{
 #container{
     height: 400px;
     /* DEBUG*/
-    background-color: #233142;
+    background-color: rgba(42, 42, 42, 0.944);
     border-bottom: 1px solid #d3d3d3;
     /* flex */
     display: flex;
@@ -280,7 +323,7 @@ header main{
 #bs-container{
     /* DEBUG */
     height: 100px;
-    background-color: #233142;
+    background-color: rgba(42, 42, 42, 0.944);
 
     /* flex */
     display: flex;
@@ -289,7 +332,7 @@ header main{
 }
 
 #bs-navbar{
-    /* DEBUG */
+    margin-bottom: 30px;
     width: 70%;
     height: 30px;
     /*flex */
@@ -323,7 +366,7 @@ header main{
 }
 
 .btn.blue{
-    background-color: rgba(0, 132, 255, 0.414);
+    background-color: rgba(0, 132, 255, 0.2);
     width: auto;
 }
 
@@ -335,6 +378,7 @@ header main{
 }
 
 .x ul li{
+    margin-top: 7px;
     list-style: none;
 }
 
